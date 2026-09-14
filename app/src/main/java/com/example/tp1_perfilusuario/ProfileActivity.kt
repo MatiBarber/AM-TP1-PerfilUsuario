@@ -30,7 +30,7 @@ class ProfileActivity : AppCompatActivity() {
 
         tvSaludo.text = "¡Hola, $nombre $apellido!"
         tvEdad.text = "Edad: ${calcularEdad(fecha)} años (nacido el $fecha)"
-        tvCarrera.text = "Carrera / Lenguaje favorito: $carrera"
+        tvCarrera.text = "Carrera: $carrera"
 
         btnEditar.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java).apply {
