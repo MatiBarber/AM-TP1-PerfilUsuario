@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TP1-PerfilUsuario</string>
+
+    <string-array name="carreras_array">
+        <item>Ingeniería en Sistemas de Información</item>
+        <item>Ingeniería Electrónica</item>
+        <item>Ingeniería Electromecánica</item>
+        <item>Ingeniería Química</item>
+        <item>Ingeniería Industrial</item>
+        <item>Licenciatura en Administración Rural</item>
+    </string-array>
+</resources>
